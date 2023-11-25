@@ -1,0 +1,30 @@
+.table thead th{
+    vertical-align: top;
+}
+img.masterCard {
+    width: 40px;
+}   
+.card-body.bgGrayPlan {
+    background: #f2f2f2;
+    border-bottom: 1px solid rgba(0,0,0,.125);
+}
+.borderCard{
+    border-bottom: 1px solid rgba(0,0,0,.125);
+}
+ul.listStyle li {
+    list-style: none;
+    font-size: 13px;
+}
+ul.listStyle{
+    padding-left: 0px;
+}
+span.ml-5.usdPrice {
+    font-size: 16px;
+}
+b.dollarPrice {
+    font-size: 25px;
+    padding: 0px 4px;
+}
+.d-flex.justify-content-between.w-100 a {
+    color: #7557a6;
+}

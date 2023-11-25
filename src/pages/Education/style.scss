@@ -1,0 +1,51 @@
+tr.deactive{
+    background-color: #ffd9dd;
+}
+
+.list_name{
+  min-width: 90px;  
+}
+
+.activedeactiveicon {
+    font-size: 18px;
+    line-height: normal;
+    vertical-align: middle;
+}
+
+.addDropdown {
+    .dropdown-menu {
+        left: initial !important;
+        right: 0 !important;
+        top: 110% !important;
+        transform: none !important;
+    }
+}
+
+.nowrap {
+    white-space: nowrap;
+}
+
+.phoneInput {
+    display: flex;
+    justify-content: space-between;
+
+    >*:first-child {
+        width: 60px;
+    }
+
+    & *:last-child {
+        width: calc(100% - 70px);
+    }
+}
+
+.modal-dialog-md {
+    max-width: 900px !important;
+}
+
+
+
+
+// .ant-select-focused:where(.css-dev-only-do-not-override-1m62vyb).ant-select:not(.ant-select-disabled):not(.ant-select-customize-input):not(.ant-pagination-size-changer) .ant-select-selector {
+//     border-color: #fff;
+//     box-shadow: 0 0 0 2px rgb(5 145 255 / 10%);
+// }

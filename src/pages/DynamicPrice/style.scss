@@ -1,0 +1,73 @@
+@import "../../scss/mixins";
+
+.holidays {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 9px;
+    position: relative;
+    padding-left: 1px;
+    cursor: pointer;
+
+    &.active {
+        color: $primaryColor;  
+    }
+
+    >.bold {
+        font-weight: 500;
+    }
+
+    // &::before{
+    //     content: "";
+    //     height: 5px;
+    //     width: 5px;
+    //     position: absolute;
+    //     background-color: #000;
+    //     left: 0;
+    //     top:8px;
+    //     border-radius: 50%;
+    // }
+}
+
+.card .overLapList {
+    max-height: 520px;
+    overflow: auto;
+}
+
+// .scholing {
+//     overflow: auto;
+//     overflow-x: scroll;
+// }
+ul.nav.nav-tabs.school {
+    min-width: 300px !important;
+}
+
+.form-check.ml-1.chekss {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.inside_check {
+    width: 15%;
+    margin: 0px 10px;
+}
+
+.card .overLapList {
+    max-height: 520px;
+    overflow: auto;
+}
+
+.btn.btn-secondary.discard {
+    background-color: #fff !important;
+    border: 1px solid #DCDCDC !important;
+    color: #202020 !important;
+    font-size: 14px !important;
+    height: 43px;
+    border-radius: 10px;
+    font-weight: 500;
+}
+i.fa.fa-copy{
+    font-size: 15px;
+    font-weight: 600;
+    color: #898989;
+}

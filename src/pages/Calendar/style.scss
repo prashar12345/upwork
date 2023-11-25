@@ -1,0 +1,331 @@
+@import "../../scss/mixins";
+
+.calendarFilter {
+    // display: flex;
+    // flex-wrap: wrap;
+    // column-gap: 10px;
+    // row-gap: 10px;
+    // justify-content: right;
+}
+
+td.fc-timegrid-axis {
+    height: 120px;
+}
+
+.fc-view-harness.fc-view-harness-active {
+    height: 553px !important;
+}
+
+.fc-timegrid-slots{
+    tbody{
+        tr{
+            .fc-timegrid-slot-label-cushion{
+                font-size: 0;
+                // max-width: 100px;
+                // white-space: pre-line;
+                &::before{
+                    font-size: 12px;
+                    font-weight: 600;
+                }
+            }
+            &:nth-child(1) .fc-timegrid-slot-label-cushion::before{
+                content: "9 am to 10 am";
+            }
+            &:nth-child(3) .fc-timegrid-slot-label-cushion::before{
+                content: "10 am to 11 am";
+            }
+            &:nth-child(5) .fc-timegrid-slot-label-cushion::before{
+                content: "2 pm to 3 pm";
+            }
+            &:nth-child(7) .fc-timegrid-slot-label-cushion::before{
+                content: "3 pm to 4 pm";
+            }
+        }
+    }
+}
+
+.fc-timegrid-slot {
+    height: 60px !important;
+}
+
+.fc-v-event {
+    border: 1px solid #fff !important;
+}
+.p1 {
+    padding-top: 5px;
+}
+
+.fc-direction-ltr .fc-timegrid-slot-label-frame {
+    text-align: center;
+}
+.fc-scroller table.fc-col-header thead tr th {
+    padding: 10px;
+}
+.fc-scroller table.fc-col-header thead {
+    background: #f0f0f0; 
+}
+.fc-toolbar-title {
+    font-size: 24px !important;
+    font-weight: 400;
+}
+a.nav-link.active:hover {
+    color: #765aa6 !important;
+}
+.labelName {
+    color: #000000 !important;
+    font-weight: 400;
+    font-size: 10px;
+}
+b.labelValue {
+    font-size: 12px;
+    color: #000 !important;
+}
+.fc-event-main div {
+    line-height: 17px;
+    color: #202020;
+}
+a.nav-link.active:hover {
+    // color: #fff !important;
+}
+.fc-event-main {
+    font-size: 12px !important;
+    font-weight: 600 !important;
+    width: 100%;
+    line-height: 14px;
+    text-align: center;
+}
+.fc-timegrid-event-harness {
+    // position: relative;
+}
+.calendarFilter .selectDropdown {
+    width: 150px;
+    float: right;
+}
+.relativeCls{
+    width: 100%;
+    position: relative;
+    top: 89px;
+    z-index: 1;
+
+    .fa{
+        position: relative;
+        padding: 8px;
+        &:hover{
+            color: $primaryColor;
+        }
+    }
+
+    .fa-chevron-left{
+        left: -21px;
+    }
+    .fa-chevron-right{
+        right: -21px;
+    }
+}
+
+.fc-daygrid-day-events,
+.fc-daygrid-event-harness {
+    position: initial !important;
+}
+
+.fc-day-other {
+    .fc-daygrid-day-events {
+        display: none;
+    }
+}
+
+.fc-scrollgrid-sync-table {
+    tbody {
+        tr:last-child {
+            td {
+                display: none;
+            }
+
+            td:first-child:not(.fc-day-other) {
+                display: table-cell;
+
+                ~td {
+                    display: table-cell;
+                }
+            }
+        }
+    }
+}
+
+$mainColor:#8f96ff;
+$customDatesColor:#67ff8a;
+$earlyInventoryColor:#0dcaf0;
+$lastFixed:#ffd454;
+$lastInventory:#ff7e8b;
+$eventsColor:#ffe0fd;
+$schoolColor:#a4d0ff;
+$publicHColor:#ffc6cc;
+$overrideColor:#e8e8e8;
+
+.mainColorBg{
+    background-color: $mainColor;
+}
+
+.customDatesColorBg{
+    background-color: $customDatesColor;
+}
+
+.earlyInventoryColorBg{
+    background-color: $earlyInventoryColor;
+}
+
+.lastFixedBg{
+    background-color: $lastFixed;
+}
+
+.lastInventoryBg{
+    background-color: $lastInventory;
+}
+
+.eventsColorBg{
+    background-color: $eventsColor;
+}
+
+.schoolColor{
+    background-color: $schoolColor;
+}
+
+.publicHColor{
+    background-color: $publicHColor;
+}
+
+.overrideBg{
+    background-color: $overrideColor; 
+}
+
+
+.fc-event {
+    background-color: transparent;
+    border-color: transparent;
+    position: inherit !important;
+
+    .fc-event-main {
+        color: inherit !important;
+        font-weight: 500;
+    }
+
+    .titleDiv {
+        position: absolute;
+        left: 0;
+        top: 0;
+        height: 100%;
+        width: 100%;
+        padding: 8px;
+        font-size: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        .titleContent{
+            position: relative;
+            z-index: 1;
+            width: 100%;
+        }
+
+        .colorDiv {
+            position: absolute;
+            height: 100%;
+            width: 100%;
+            left: 0;
+            top: 0;
+            opacity: .4;
+            display: flex;
+            .colorDiv{
+                height: 100%;
+                width: 100%;
+            }
+        }
+
+        .overlapDiv {
+            color: red !important;
+        }
+
+        .spaces {
+        }
+
+        .price{
+           font-size: 14px;
+        }
+
+        .fc-event-main {
+            color: $primaryColor;
+        }
+
+    }
+}
+
+.dpricingCard {
+    label {
+        font-weight: 600;
+        margin-bottom: 0;
+    }
+}
+
+.fc-timegrid-event-harness {
+    background-color: #fff;
+    color: #fff;
+
+    a {
+        color: inherit !important;
+    }
+}
+
+.fc-dayGridMonth-view {
+    .weekEvent {
+        // display: none !important;
+    }
+
+    .fc-daygrid-dot-event{
+        display: none !important;
+    }
+}
+
+.fc-timeGridWeek-view {
+    .monthEvent {
+        // display: none;
+    }
+    >table >tbody{
+        >tr:first-child{
+            display: none !important;
+        }
+    }
+
+}
+
+.fc .fc-daygrid-day-frame{
+    background-color: #fff;
+}
+
+.fc-scrollgrid-sync-table {
+    .fc-event {
+        >.fc-event-main {
+                 position: initial !important;
+        }
+    }
+}
+
+.fc-event.dprice .fc-event-main {
+    z-index: 9999 !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.colorItem{
+    display: flex;
+    align-items: center;
+    column-gap: 5px;
+    .color{
+        height: 13px;
+        width: 13px;
+    }
+    margin-bottom: 3px;
+}
+
+.tooltip-inner{
+    max-width: 120px !important;
+}

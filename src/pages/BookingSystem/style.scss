@@ -1,0 +1,52 @@
+.profileImage {
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+}
+.user_hours {
+    min-width: 66px;
+    height: 24px;
+    padding: 0 10px;
+    background: #a5b4ff3d;
+    border-radius: 3px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+.profileImageLabel {
+    margin: 0;
+    position: relative;
+
+    >i {
+        position: absolute;
+        bottom: -3px;
+        right: -3px;
+    }
+}
+
+.pprofile1 {
+    padding: 8px 22px;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #fff;
+    border-radius: 12px;
+}
+
+p.bg-light.rounded.py-2.fieldcls {
+    background-color: #775DA62b !important;
+
+}
+
+.ViewUser {
+    // font-weight: 500;
+    color: #202020;
+    font-weight: 600;
+    font-size: 28px;
+    margin-bottom: 32px;
+}
+.col-md-3.booking_heading {
+    margin-bottom: 0.8rem !important;
+ }

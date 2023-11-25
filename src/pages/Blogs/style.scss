@@ -1,0 +1,332 @@
+// tr.deactive{
+//     background-color: #ffd9dd;
+// }
+
+// .pointer{
+//     cursor: pointer;
+// }
+
+
+// .tablepadding{
+//     padding: 0px !important;
+//     margin-top: 10px;
+// }
+
+// .roleTable tr td {
+//     width: 100px;
+//     max-width: 100px;
+//     min-width: 100px;
+// }
+
+// .activedeactiveicon {
+//     font-size: 18px;
+//     line-height: normal;
+//     vertical-align: middle;
+// }
+
+
+ 
+
+// .nowrap {
+//     white-space: nowrap;
+// }
+
+  
+
+// .modal-dialog-md {
+//     max-width: 900px !important;
+// }
+
+
+// // roles designs
+
+// .listing_roles {
+//     border-bottom:none !important;
+//     border-top: none !important;
+// }
+
+
+// .roles_list {
+//     background-color: #7561a21f;
+//     margin: 1rem 0px;
+//     padding: 0.8rem;
+//     border-radius: 8px;
+// }
+
+// h3.role_name {
+//     font-size: 20px;
+//     margin-bottom:6px;
+//     font-weight: 600;
+//     color: #7561a2;
+// }
+
+
+// .main_roles {
+//     font-size: 22px;
+//     font-weight: 600;
+//     color: #0000007d;
+//     border-top: none !important;
+//     border-bottom:none !important;
+// }
+
+
+// .main_roles {
+//     display: block;
+// }
+
+
+// .checkList label {
+//     margin-right: 14px;
+//     margin-right: 30px;
+//     font-size: 14px;
+//     font-weight: 500;
+//     color: #202020;
+// }
+
+
+// input[type="checkbox"] {
+//     margin-right:10px;
+// }tr.deactive{
+//     background-color: #ffd9dd;
+// }
+
+// .pointer{
+//     cursor: pointer;
+// }
+
+
+// .tablepadding{
+//     padding: 0px !important;
+//     margin-top: 10px;
+// }
+
+// .roleTable tr td {
+//     width: 100px;
+//     max-width: 100px;
+//     min-width: 100px;
+// }
+
+// .activedeactiveicon {
+//     font-size: 18px;
+//     line-height: normal;
+//     vertical-align: middle;
+// }
+
+
+ 
+
+// .nowrap {
+//     white-space: nowrap;
+// }
+
+  
+
+// .modal-dialog-md {
+//     max-width: 900px !important;
+// }
+
+
+// // roles designs
+
+// .listing_roles {
+//     border-bottom:none !important;
+//     border-top: none !important;
+// }
+
+
+// .roles_list {
+//     background-color: #7561a21f;
+//     margin: 1rem 0px;
+//     padding: 0.8rem;
+//     border-radius: 8px;
+// }
+
+// h3.role_name {
+//     font-size: 20px;
+//     margin-bottom:6px;
+//     font-weight: 600;
+//     color: #7561a2;
+// }
+
+
+// .main_roles {
+//     font-size: 22px;
+//     font-weight: 600;
+//     color: #0000007d;
+//     border-top: none !important;
+//     border-bottom:none !important;
+// }
+
+
+// .main_roles {
+//     display: block;
+// }
+
+
+// .checkList label {
+//     margin-right: 14px;
+//     margin-right: 30px;
+//     font-size: 14px;
+//     font-weight: 500;
+//     color: #202020;
+// }
+
+
+// input[type="checkbox"] {
+//     margin-right:10px;
+// }
+
+
+//////////////////////////////////////////////////////////////////////////////////////////
+
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  h2,
+  p,
+  a {
+    font-family: 'roboto', sans-serif;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  .blog-posts-wrap {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .text-truncate.w-75 {
+    height: 35px;
+}
+  .post-link {
+    margin: 20px 20px 20px 20px;
+  }
+  
+  .post-wrap {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative; 
+    background-color: #fff;
+    box-shadow: 0px 2px 20px rgba(204, 204, 204, 0.349);
+    transition: all .25s;
+    top: 0;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .post-wrap:hover {
+    top: 2px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,.25);
+  }
+  
+  .post-image {
+    height: 200px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .post-body {
+    width: 300px;
+    padding: 10px;
+    margin: 0 auto;
+  }
+  
+  .post-body-primary {
+    margin: 10px 0 10px 0;
+  }
+  
+  .post-meta {
+    color: #7B7B7B;
+  }
+  
+  .post-meta b {
+    font-weight: 500;
+  }
+  
+  .post-title {
+    color: #444;
+    font-size: 20px;
+    padding: 5px 0 10px 0;
+  }
+  
+  .post-text {
+    color: #7B7B7B;
+  }
+  
+  .post-body-secondary {
+    border-top: 1px solid #ECECEC;
+  }
+  
+  .post-category {
+    color: #7B7B7B;
+    padding: 15px 0 10px 0;
+  }
+  
+  /* Button Styling */
+  .button-wrap {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0 20px 0;
+  }
+  
+  .button {
+    position: relative;
+    background-color: #3089DB;
+    padding: 20px 60px 20px 60px;
+    box-shadow: 0px 6px 20px rgba(48,137,219,.60);
+    transition: all .25s;
+    top: 0;  
+    border-radius: 10px;
+    
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+  
+  .button:hover {
+    border-radius: 10px;
+    box-shadow: 0px 2px 10px rgba(48,137,219,.60);
+    top: 2px;
+  }
+
+  // .post-image{
+  //     background-image: url("https://d29fhpw069ctt2.cloudfront.net/photo/34669/preview/e2ddba22_npreviews_dd6e.jpg");
+  // }
+
+  img.noimage {
+    width: 100%;
+}
+ul.category_name li {
+  list-style: none;
+  border-bottom: 1px solid #2d2f311f;
+  margin-bottom: 10px;
+  padding: 10px;
+  color: #353636;
+  font-size: 13px;
+  cursor: pointer;
+
+}
+ul.category_name li:hover{
+  color: #3aa0dc;
+  background: #a4d5ea21;
+}
+ul.category_name {
+  position: sticky;
+  top: 20px;
+}
+ul.category_name {
+  border: 1px solid #3aa0dc5c;
+  border-radius: 10px;
+}
+.uploadimage_class {
+  width: 100% !important;
+  height: 227px !important;
+  object-fit: cover;
+}

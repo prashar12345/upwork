@@ -1,0 +1,103 @@
+tr.deactive{
+    background-color: #ffd9dd;
+}
+
+.pointer{
+    cursor: pointer;
+}
+
+
+.tablepadding{
+    padding: 0px !important;
+    margin-top: 10px;
+}
+
+.roleTable tr td {
+    width: 100px;
+    max-width: 100px;
+    min-width: 100px;
+}
+
+.activedeactiveicon {
+    font-size: 18px;
+    line-height: normal;
+    vertical-align: middle;
+}
+
+
+.addDropdown {
+    .dropdown-menu {
+        left: initial !important;
+        right: 0 !important;
+        top: 110% !important;
+        transform: none !important;
+        z-index: 9999;
+    }
+}
+
+.nowrap {
+    white-space: nowrap;
+}
+
+.phoneInput {
+    display: flex;
+    justify-content: space-between;
+
+    >*:first-child {
+        width: 60px;
+    }
+
+    & *:last-child {
+        width: calc(100% - 70px);
+    }
+}
+
+.modal-dialog-md {
+    max-width: 900px !important;
+}
+
+
+// roles designs
+
+.listing_roles {
+    border-bottom:none !important;
+    border-top: none !important;
+}
+
+
+.roles_list {
+    background-color: #7561a21f;
+    margin: 1rem 0px;
+    padding: 0.8rem;
+    border-radius: 8px;
+}
+
+h3.role_name {
+    font-size: 20px;
+    margin-bottom:6px;
+    font-weight: 600;
+    color: #7561a2;
+}
+
+
+.main_roles {
+    font-size: 22px;
+    font-weight: 600;
+    color: #0000007d;
+    border-top: none !important;
+    border-bottom:none !important;
+}
+
+
+.main_roles {
+    display: block;
+}
+
+
+.checkList label {
+    margin-right: 14px;
+    margin-right: 30px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #202020;
+}

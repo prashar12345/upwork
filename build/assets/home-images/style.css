@@ -1,0 +1,173 @@
+
+body{
+    background-color: #F9F9F9;
+    font-family: "Inter", sans-serif !important;
+}
+h1.job {
+    font-size: 24px;
+    font-weight: 600;
+}
+p.linkJob {
+    font-size: 14px;
+    color: #898989;
+}
+.chart_cls a {
+    font-size: 14px;
+    color: #31a3d9 !important;
+}
+.btn-outline-primary {
+    color: #31a3d9;
+    background-color: transparent;
+    background-image: none;
+    border-color: #31a3d9;
+    font-size: 14px;
+    border-radius: 10px;
+    padding: 4px 12px;
+}
+.linkJob a{
+    color: #775DA6 !important;
+}
+img.logo {
+    width: 150px;
+}
+.bg-white.p-3 small {
+    color: #898989;
+    font-size: 14px;
+}
+.bg-white.p-3 p {
+    font-size: 14px;
+    color: #898989;
+}
+.bg-white.p-3 h2 {
+    font-size: 36px;
+    font-weight: 400;
+}
+img.profileImg {
+    width: 32px;
+    height: 32px;
+    object-fit: cover;
+    border-radius: 50px;
+    margin-left: 25px;
+}
+.justify-content-right{
+    justify-content: right;
+}
+img.icon {
+    width: 24px;
+    height: 24px;
+    object-fit: cover;
+}
+.navbar-light .navbar-nav .nav-link {
+    font-size: 16px;
+}   
+i.fa.fa-circle.IcAlign {
+    position: absolute;
+    font-size: 8px;
+    background: #fff;
+    padding: 2px;
+    border-radius: 40px;
+    color: #F9837C;
+    margin-left: 10px;
+    top: 2px;
+}
+i.fa.fa-bell {
+    color: #898989;
+}
+img.profileLeft {
+    width: 64px;
+    height: 64px;
+    border-radius: 50px;
+    object-fit: cover;
+}
+.ml-2 span {
+    color: #898989;
+    font-size: 14px;
+}
+.ml-2 p {
+    font-size: 16px !important;
+    color: #202020 !important;
+}
+.bg-white.roundeds {
+    border-radius: 12px !important;
+}
+.p-3.vectorText span {
+    color: #898989;
+    font-size: 14px;
+}
+.p-3.vectorText p {
+    font-size: 16px;
+    color: #202020;
+}
+.shadow {
+    box-shadow: 0 .1rem 0.3rem rgba(0,0,0,.15)!important;
+}
+.p-3.userProfile small {
+    color: #898989;
+    font-size: 14px;
+}
+.p-3.border-top p {
+    color: #202020;
+    font-size: 14px;
+}
+i.fa.fa-map-marker {
+    color: #898989;
+}
+.shadow.p-3.cardJob h2 {
+    font-size: 18px;
+    margin-top: 15px;
+    font-weight: 600;
+}
+h2.headingUser {
+    font-size: 36px;
+    font-weight: 600;
+}
+.social span {
+    font-size: 14px;
+    color: #202020;
+}
+img.cardIcon {
+    width: 16px;
+    height: 16px;
+    margin-right: 6px;
+}
+.shadow.p-3.cardJob {
+    border-radius: 10px;
+}
+.d-flex.justify-content-between.align-items-flex-start {
+    align-items: flex-start;
+}
+
+h1.priceCls {
+    font-size: 32px;
+    font-weight: 600;
+}
+h1.priceCls span {
+    font-size: 14px;
+}
+.leftAlign p {
+    color: #898989;
+    font-size: 14px;
+}
+
+
+img.chartImg {
+    width: 68%;
+    display: block;
+    margin-left: auto;
+}
+.locationToko h3 {
+    font-size: 18px;
+    font-weight: 600;
+}
+.locationToko {
+    font-size: 14px;
+}
+.reviewsection span{
+    font-size: 14px;
+    color: #898989;
+}
+.reviewsection p {
+    font-size: 14px;
+    margin-bottom: 0px;
+    font-weight: 600;
+}

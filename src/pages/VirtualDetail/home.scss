@@ -1,0 +1,40 @@
+img.virtual_img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #ea5c32;
+}
+.location{
+    font-size: 14px;
+   position: relative;
+   top: 1px;
+}
+.alignitems-center{
+    align-items: center;
+}
+p.mt-5.desc_font {
+    line-height: 22px;
+}
+.border_total_sale {
+    border: 1px solid #ccc;
+    padding: 0px;
+}
+.total_data h5 {
+    font-weight: 600;
+}
+.border_box.p-3 {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+p.desc_virtual {
+    line-height: 1.5;
+    font-size: 16px;
+}
+h2.name_virtual {
+    font-size: 24px;
+    color: #3aa0dc;
+}
+a.back:hover {
+    color: #3aa0dc;
+}

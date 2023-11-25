@@ -1,0 +1,145 @@
+tr.deactive{
+    background-color: #ffd9dd;
+}
+
+.flexStars{
+    display: flex;
+    column-gap: 7px;
+    font-size: 18px;
+}
+
+.pointer{
+    cursor: pointer;
+}
+
+.activedeactiveicon {
+    font-size: 18px;
+    line-height: normal;
+    vertical-align: middle;
+}
+
+.addDropdown {
+    // .dropdown-menu {
+    //     left: initial !important;
+    //     right: 0 !important;
+    //     top: 110% !important;
+    //     transform: none !important;
+    // }
+}
+
+.nowrap {
+    white-space: nowrap;
+}
+button.btn.btn-primary.ml-3.search-btn{
+    height: 85%;
+}
+
+.phoneInput {
+    display: flex;
+    justify-content: space-between;
+
+    >*:first-child {
+        width: 60px;
+    }
+
+    & *:last-child {
+        width: calc(100% - 70px);
+    }
+}
+
+.modal-dialog-md {
+    max-width: 900px !important;
+}
+img.socialImg {
+    width: 100px;
+}
+h1.heddingReview.text-center {
+    font-weight: 700;
+    font-size: 54px;
+}
+.welcomeAboard{
+    font-size: 30px;
+    font-weight: 700;
+}
+.socialForm{
+    width: 70%;
+}
+input.image-upload {
+    position: absolute;
+    left: 15px;
+    height: 81px;
+    width: 100%;
+    cursor: pointer;
+    opacity: 0;
+}
+button.btn.btn-primary a {
+    color: #fff;
+}
+button.btn.btn-primary a:hover {
+    color: #fff !important;
+}
+img.social_Img {
+    width: 35px;
+}   
+.borderSocial_review {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 10px;
+}
+.oneStep {
+    text-align: right;
+    background: #eaeaea;
+    width: fit-content;
+    padding: 3px 16px;
+    font-size: 24px;
+    margin-left: auto;
+}
+.border_file {
+    border: 1px solid #908c8c;
+    padding: 10px 15px;
+    width: fit-content;
+    border-radius: 10px;
+    margin: auto;
+    margin-bottom: 10px !important;
+}
+.boxImgupload {
+    background-color: #f6f6f6;
+    text-align: center;
+    height: 130px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+.stepCls{
+     background-color: #ffffff00;
+    // background-image: 'linear-gradient(to left, rgba(255,0,0,0), rgb(118 90 166))';
+    
+}
+ 
+.btn.btnsecondary.backBtn.w-25 {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-color: #ccc;
+}
+.progress.w-50.mx-auto.mb-5 {
+    border-radius: 50px;
+}
+p.text-center.pcls {
+    padding: 0px 9rem;
+    font-size: 16px;
+    color: #000;
+}
+.social_search {
+    width: 60%;
+    margin: auto;
+    input{
+        border-radius: 50px;
+        padding: 24px 20px !important;
+    }
+}

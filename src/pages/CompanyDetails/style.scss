@@ -1,0 +1,120 @@
+.profileImage {
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+}
+ 
+.profileImageLabel {
+    margin: 0;
+    position: relative;
+
+    >i {
+        position: absolute;
+        bottom: -3px;
+        right: -3px;
+    }
+}
+
+.pprofile1 {
+    padding: 21px 22px;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #fff;
+    border-radius: 12px;
+}
+
+p.bg-light.rounded.py-2.fieldcls {
+    background-color: #775DA62b !important;
+
+}
+
+.ViewUser {
+    // font-weight: 500;
+    color: #202020;
+    font-weight: 600;
+    font-size: 36px;
+    margin-bottom: 32px;
+}
+
+// new company designs
+h2.mb-5 {
+    font-size: 24px;
+    margin-bottom: 20px !important;
+}
+h3.company_heading {
+    font-size: 16px;
+    font-weight: 600;
+    color: #202020;
+}
+.company_cards {
+    padding: 0rem;
+    background: white;
+    border-radius: 12px;
+    margin: 2rem auto;
+    width: 100%;
+    height: auto;
+}
+hr.company_line {
+    border-top: 1px solid #202020;
+    margin: 0px !important;
+}
+.info_detail {
+    padding: 1rem;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+a.Edit_section {
+    margin: 0px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #775DA6;
+    &:hover{
+        text-decoration: none;
+    }
+}
+.company_detail {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    // min-height: 70px;
+
+}
+p.company_details {
+    margin-bottom: 8px !important;
+    font-size: 14px;
+    font-weight: 400;
+    color: #84818A;
+}
+h4.company_name {
+    margin-bottom: 0px !important;
+    font-size: 14px;
+    font-weight: 600;
+    color: #202020;
+}
+span.comapny_logos {
+    background: #DCDCDC;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+label.user_company {
+    margin-left: 0rem;
+    font-size: 14px;
+}
+.searchWrapper {
+    border-radius: 8px !important;
+    border: 1px solid #fff4f4 !important;
+}
+// edit section css
+
+.edit_company_detail {
+    padding: 1.5rem;
+    border-top: 1px solid #2020204d;
+}
+i.material-icons.calls {
+    font-size: 16px;
+}

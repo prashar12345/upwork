@@ -1,0 +1,108 @@
+.borderCls {
+    height: 1px;
+    width: 100%;
+    background: #DCDCDC;
+    margin-top: 1rem;
+   text-align: center;
+}
+span.or {
+    position: relative;
+    top: -6px;
+    background: #fff;
+    padding: 4px;
+}
+.row.align-items-center.justify-content-center {
+    margin-top: 7rem;
+}
+p.text-primary.sign_users {
+    cursor: pointer;
+    border: 1px solid #2d68b2 !important;
+    width: fit-content;
+    display: block;
+    margin: auto;
+    padding: 10px 20px;
+    background: #2d6eb5;
+    color: #fff !important;
+    border-radius: 50px;
+}
+.tab_clas.ml-auto {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+button.nav-link.signup-tab_cls.active {
+    color: #000 !important;
+}
+.imagesRow div p i.fa.fa-trash.text-danger.shadow-danger.delet_icon {
+    position: relative;
+    top: -17px;
+    left: -13px;
+}
+.imagesRow.ml-3 {
+    display: flex;
+    flex-wrap: wrap;
+}
+// .bg_img {
+//     background-image: url(http://localhost:3000/static/media/background_img.fb94000….png);
+//     height: 100%;
+//     background-attachment: fixed;
+//     background-repeat: no-repeat;
+//     background-size: cover;
+// }
+a.sign_up:hover {
+    color: #000 !important;
+}
+.main_signup{
+    background-image: url('../../../public/assets/img/auth.jpg');
+    height: 100vh;
+    overflow: auto !important;
+    background-attachment: fixed;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.top_section{
+    background-image: linear-gradient(to left, #2062AD, #0C8E99, #24A2DB );
+    padding: 3px;
+    border-radius: 20px;
+}
+
+.right_side {
+    background-color: #fff;
+    height: 100%;
+    padding:2rem 2rem;
+    border-width: 0px;
+    border-radius: 20px;
+    // border-image-source: linear-gradient(to left, #2062AD, #0C8E99, #24A2DB );
+}
+
+
+button#profile-tab {
+    margin-left: 12px;
+    background: #fff;
+}
+
+a.btn.btn-outline.google_id img {
+    width: 16px;
+   margin-right: 0px !important;
+}
+
+button#profile-tab {
+    background: #fff;
+}
+// tabcss
+
+
+img.iconSignup {
+    width: 80px;
+}
+.glad {
+    font-size: 18px;
+}
+.glads{
+    font-size: 16px;
+}

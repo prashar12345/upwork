@@ -1,0 +1,31 @@
+.react-datepicker-wrapper {
+    width: 100%;
+}
+
+.removeIc {
+    cursor: pointer;
+    position: absolute;
+    right: 18px;
+    background: #f6f6f6;
+    border-radius: 8px;
+}
+input.form-control.pCls.w-25.ml-3 {
+    padding: 20px !important;
+}
+.inputOverlapIcon {
+    position: absolute;
+    right: 27px;
+    width: auto;
+    text-align: right;
+    margin-top: 8px;
+    border-left: 1px solid #d0d0d0;
+}
+ .addIc {
+    padding: 10px 12px;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 8px;
+}
+.pointer{
+    cursor: pointer;
+}

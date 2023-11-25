@@ -1,0 +1,27 @@
+.react-datepicker-wrapper {
+    width: 100%;
+}
+
+.removeIc {
+    cursor: pointer;
+    position: absolute;
+    right: 18px;
+    background: #f6f6f6;
+    border-radius: 8px;
+}
+ .addIc {
+    padding: 7px 10px;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.eventHeading {
+    color: #202020;
+    font-weight: 600;
+    font-size: 22px;
+    margin-bottom: 32px !important;
+}
+.pointer{
+    cursor: pointer;
+}

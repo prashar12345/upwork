@@ -1,0 +1,342 @@
+.maininutcls i.fa.fa-times {
+    position: absolute;
+    left: 2rem;
+    top: 2rem;
+    background: #ffffffcf;
+    border-radius: 29px;
+    width: 19px;
+    height: 18px;
+    display: none;
+    z-index: 9999;
+}
+.delet_icons {
+    position: absolute;
+    right: 0px;
+}
+.phoneInput > *:first-child {
+    width: 60px;
+    margin-right: 10px;
+}
+.phoneInput {
+    display: flex;
+    justify-content: space-between;
+}
+.maininutcls:hover .fa.fa-times {
+    display: inline-block;
+}
+
+
+i.fa.fa-trash.text-danger.shadow-danger.delet_icons {
+    position: relative;
+    left: -8px;
+    top: -1rem;
+}
+
+.maininutcls {
+    display: inline-block;
+    position: relative;
+
+}
+.maininutcls {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: end;
+}
+
+.profile_btn {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.start {
+    color: red;
+}
+
+.form-control:disabled,
+.form-control[readonly] {
+    background-color: #c4e1f16e;
+    opacity: 1;
+}
+
+// i.fa.fa-search {
+//     display: none;
+// }
+
+// .headerSearch .Searchbar {
+//     background: #FFFFFF;
+//     border-radius: 100px;
+//     border: none;
+//     padding: 10px 35px;
+//     display: none;
+// }
+.inputFlex{
+    display: flex;
+    column-gap: 10px;
+    > label{
+        width: 200px;
+        font-weight: 500;
+        margin-bottom: 0px;
+    }
+
+    >div{
+        width: 100%;
+        font-weight: 300;
+    }
+
+}
+
+
+// changes
+
+@media only screen and (min-width:694px) and (max-width:730px){
+    .profile_btn {
+        margin-top: 15px;
+    }
+    label.profileImageLabel {
+        margin-right: 15px;
+    }
+    label.btn.btn-primary.edit.ml-3 {
+        margin-left: 0rem !important;
+    }
+}
+
+@media only screen and (min-width:596px) and (max-width:693px){
+
+    .profile_btn {
+        margin-top: 15px;
+    }
+    label.btn.btn-primary.edit.ml-3 {
+        margin-left: 0px !important;
+    }
+}
+
+.inputFlex > label {
+    font-weight: 600;
+}
+@media only screen and (min-width:548px) and (max-width:595px){
+   
+    .profile_btn {
+        margin-top: 15px;
+    }
+    label.btn.btn-primary.edit.ml-3 {
+        margin-left: 0px !important;
+        margin-right: 15px !important;
+    }
+    label.btn.btn-primary.delete.ml-3 {
+        margin-left: 0px !important;
+    }
+    .inputFlex > label {
+        width: 150px;
+    }
+    .ViewUser {
+        font-size: 20px;
+    }
+}
+@media only screen and (min-width:384px) and (max-width:547px){
+    .profile_btn {
+        margin-top: 15px;
+    }
+    label.btn.btn-primary.edit.ml-3 {
+        margin-left: 0px !important;
+    }
+    label.btn.btn-primary.delete.ml-3 {
+        margin-left: 0px !important;
+    }
+    .inputFlex > label {
+        width: 150px;
+    }
+    .ViewUser {
+        font-size: 20px !important;
+    }
+}
+
+@media only screen and (min-width:320px)and  (max-width:383px) {
+    .profile_btn {
+        margin-top: 15px;
+    }
+    label.btn.btn-primary.edit.ml-3 {
+        margin-left: 0px !important;
+    }
+    label.btn.btn-primary.delete.ml-3 {
+        margin-left: 0px !important;
+    }
+    .inputFlex > label {
+        width: 100px;
+    }
+    .ViewUser {
+        font-size: 20px !important;
+    }
+    .mainarea {      
+          padding: 10px !important;
+          height: 100%;
+    }
+}
+
+// chnages
+.changes_image {
+    position: relative;
+    bottom: -59px;
+    left: -41px;
+    display: flex;
+    width: 100px;
+}
+span.uploader {
+    background: #00baec;
+    /* height: 21px !important; */
+    padding: 6px;
+    display: flex;
+    align-items: center;
+    border-radius: 50%;
+    color: #fff;
+    position: absolute;
+    top: 127px;
+    left: 49%;
+    cursor: pointer;
+}
+
+i.material-icons {
+    font-size: 17px;
+}
+span.remove {
+    position: absolute;
+    left: -17px;
+    background: #00bce9;
+    padding: 2px 2px;
+    border-radius: 50%;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    justify-content: center;
+}
+
+.profile_btn_portfolio {
+    display: flex;
+    width: 75px;
+    height: 71px;
+    border: 1px dashed;
+    border-color: #cdcdcd;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0rem;
+    border-radius: 6px;
+}
+label.add_portfolio.edit.ml-3 {
+    width: 200px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px !important;
+    color: #00baec;
+    cursor: pointer;
+}
+i.material-icons.add_port {
+    font-size: 50px;
+    opacity: 0.2;
+}
+
+hr.port_pr {
+    margin: 1rem;
+}
+
+.back_page {
+    position: absolute;
+    left: 43px;
+    top: 26px;
+    background: #00bce9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 26px;
+    width: 26px;
+    border-radius: 3px;
+    color: #fff !important;
+}
+i.material-icons.back_pb {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    right: 2px;
+    position: absolute;
+}
+.main_profile_page {
+    margin: auto;
+    width: 100%;
+    // max-width: 80%;
+}
+
+.Portfolioheding {
+    font-size: 19px;
+    font-weight: 600;
+}
+img.document_image {
+    width: 78px;
+    // height: 70px;
+    // margin: 0px 20px;
+}
+i.fa.fa-trash.text-danger.shadow-danger.delet_icon {
+    position: relative;
+    top: 0px;
+    left: -13px;
+}
+
+// contry code
+
+.react-tel-input .form-control {
+    position: relative;
+    font-size: 14px;
+    letter-spacing: .01rem;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+    padding-left: 48px;
+    margin-left: 0;
+    background: #FFFFFF;
+    border: 1px solid #CACACA;
+    border-radius: 5px;
+    line-height: 25px;
+    height: 38px !important;
+    width: 0px !important;
+    outline: none;
+}
+.react-tel-input .flag-dropdown {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    border: none !important;
+    border-radius: 3px 0 0 3px;
+}
+
+.react-tel-input {
+    font-family: 'Roboto',sans-serif;
+    font-size: 15px;
+    position: relative;
+    width: 30% !important;
+}
+span.dolaricon {
+    position: relative;
+    top: 37px;
+    left: -4rem;
+    color: #49505c;
+}
+
+.react-tel-input .selected-flag .flag {
+    position: absolute;
+    top: 50%;
+    margin-top: -5px;
+    left: 15px;
+}
+.react-tel-input .selected-flag {
+    outline: none;
+    position: relative;
+    width: 60px !important;
+    height: 100%;
+    padding: 0 0 0 8px;
+    border-radius: 3px 0 0 3px;
+    background: #fff;
+    border: 1px solid gainsboro;
+    border-radius: 8px !important;
+}

@@ -1,0 +1,69 @@
+tr.deactive{
+    background-color: #ffd9dd;
+}
+
+.pointer{
+    cursor: pointer;
+}
+
+.activedeactiveicon {
+    font-size: 18px;
+    line-height: normal;
+    vertical-align: middle;
+}
+.newtable tr,thead tr {
+    width: 100%;
+    margin-bottom: 1rem;
+    color: #212529;
+    background: #dfdfdf59 !important;
+    // --bs-table-bg-state: transparent;
+}
+.tophead {
+    color: grey !important;
+    background: #f9f9f9 !important;
+}
+th.topheads {
+    color: gray;
+}
+
+td.ml-2.number_pax {
+    background: #f9f9f9;
+}
+
+.addDropdown {
+    // .dropdown-menu {
+    //     left: initial !important;
+    //     right: 0 !important;
+    //     top: 110% !important;
+    //     transform: none !important;
+    // }
+}
+
+.number_pax {
+    font-weight: 600;
+}
+
+.nowrap {
+    white-space: nowrap;
+}
+
+.phoneInput {
+    display: flex;
+    justify-content: space-between;
+
+    >*:first-child {
+        width: 60px;
+    }
+
+    & *:last-child {
+        width: calc(100% - 70px);
+    }
+}
+
+.modal-dialog-md {
+    max-width: 900px !important;
+}
+
+.prodictable{
+    max-height: 300px;
+}

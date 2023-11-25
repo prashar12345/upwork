@@ -1,0 +1,125 @@
+// .mainfaq{
+//     background-image: url("../../../public/assets/img/login_bg.jpg") !important;
+// }
+.col-md-12.table-responsive {
+  box-shadow: 0px 8px 6px #cccccc70;
+}
+.searchWrapper {
+  border: 1px solid #ccc !important;
+  border-radius: 8px !important;
+  min-height: 22px;
+  padding: 8px !important;
+  position: relative;
+}
+.faq-section {
+    // background: #5fbce587;
+    // min-height: 100%;
+    // padding: 10vh 0 0;
+}
+span.bg_bages {
+  background: #acd6ec33;
+  padding: 5px 10px;
+  margin-right: 3px;
+  color: #31a3d9;
+  font-size: 12px;
+  border-radius: 55px;
+}
+.alingn-items-center{
+  border-radius: 14px;
+}
+.leftalign{
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+  .right{
+    right: 15px;
+    z-index: 999;
+  }
+.faq-title h2 {
+  position: relative;
+  margin-bottom: 45px;
+  display: inline-block;
+  font-weight: 600;
+  line-height: 1;
+}
+.faq-title h2::before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    width: 60px;
+    height: 2px;
+    background: #00bcd4;
+    bottom: -25px;
+    margin-left: -30px;
+} 
+img.project_img {
+  width: 100px;
+  height: 100px;
+  margin-right: 12px;
+  border-radius: 15px;
+}
+
+
+// new design
+.radius_card{
+  border-radius: 10px;
+}
+a.edit_job_post span {
+  font-size: 14px;
+}
+
+a.edit_job_post {
+  border: 1px solid #ccc;
+  padding: 7px 7px;
+  border-radius: 50px;
+  color: #31a3d9;
+  display: flex;
+  align-items: center;
+}
+.attachment {
+  font-size: 19px;
+  line-height: 0;
+}
+.rate_from {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+  width: fit-content;
+}
+.rate_from input {
+  width: 134px;
+  text-align: right;
+}
+.rate_box {
+  background: #31a3d961; 
+  width: fit-content;
+  border-radius: 10px;
+  border: 2px solid #31a3d9;
+}
+.badges_skill span {
+  background: #31a3d93b;
+  padding: 10px;
+  border-radius: 50px;
+  color: #31a3d9;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  margin-top: 1rem;
+  display: inline-block;
+}
+.modal-header {
+  border-bottom: 0px;
+}
+.modal-content {
+  border-radius: 15px;
+}
+.footer_btn {
+  background: #fff;
+  position: absolute;
+  bottom: 0px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 14px 4rem;
+  border-top: 1px solid #ccc;
+}
